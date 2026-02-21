@@ -15,7 +15,7 @@ run = "echo 'No tests configured'"
 run = "echo 'No codegen needed'"
 
 [tasks.install]
-run = "echo 'No dependencies to install'"
+run = "mise install"
 
 [tasks.ci]
 depends = ["lint", "test"]
