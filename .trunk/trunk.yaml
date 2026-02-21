@@ -32,5 +32,4 @@ lint:
     - trufflehog@3.93.4
     - yamllint@1.38.0
 actions:
-  enabled:
-    - trunk-upgrade-available
+  enabled: []
