@@ -1,0 +1,21 @@
+[tools]
+python = "3.12.3"
+trunk = "1.3.4"
+
+[tasks.lint]
+run = "trunk check"
+
+[tasks.fmt]
+run = "trunk fmt"
+
+[tasks.test]
+run = "echo 'No tests configured'"
+
+[tasks.codegen]
+run = "echo 'No codegen needed'"
+
+[tasks.install]
+run = "echo 'No dependencies to install'"
+
+[tasks.ci]
+depends = ["lint", "test"]
